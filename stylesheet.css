@@ -1,0 +1,138 @@
+header {
+  background-color: #264d00;
+  width: 700px;
+  height: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  border-radius: 9px;
+}
+
+ul a {
+  color: antiquewhite;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px rgba(65, 87, 69, 0.5)
+}
+
+li {
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  padding: 15px;
+  margin: 20px 30px 20px 40px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+  box-shadow: inset 2px 2px 5px rgba(65, 87, 69, 0.5)
+}
+
+body {
+  max-width: 700px;
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  font-style: normal;
+}
+
+.p1 {
+  border: 0px solid white;
+  width: 65%;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9px;
+}
+
+.p2 {
+  border: 0px solid white;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9px;
+}
+
+img.right {
+  float: right;
+  margin: 0.5em 0 1em 1em;
+  border: none;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 9px;
+}
+
+td {
+  padding: 8px 20px;
+}
+
+th {
+  text-align: left;
+  width: 100px;
+  padding: 8px 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+form {
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  box-shadow: inset 2px 2px 5px rgba(65, 87, 69, 0.5);
+}
+
+textarea {
+  height: 100px;
+  padding: 5px 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: rgba(65, 87, 69, 0.5);
+  border: 1px black;
+  color: white;
+  height: 30px;
+  padding: 5px 4px;
+  text-decoration: none;
+  margin: 15px 0px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px rgba(65, 87, 69, 0.5);
+}
+
+input[type="submit"]:active {
+  background-color: #264d00;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  background-color: #264d00;
+  width: inherit;
+  height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: antiquewhite;
+  text-align: center;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  padding: 7px;
+}

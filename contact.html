@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>Opdracht les 13 t/m 15 CSS3</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id=menu>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mijncv.html">Mijn cv</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <h1>Contactformulier</h1>
+
+    <form id="contactform" action="https://formspree.io/f/xwkzavjn" method="post">
+        <fieldset>
+            <input type="text" name="_voornaam" placeholder="Voornaam" maxlength="40" />
+            <input type="text" name="_achternaam" placeholder="Achternaam" maxlength="40" />
+            <input type="text" name="_telefoon" placeholder="Telefoon" maxlength="10" />
+            <input type="email" name="_replyto" placeholder="E-mailadres" />
+            <textarea type="text" name="bericht" placeholder="Bericht" maxlength="600"></textarea>
+            <br>
+            <input type="submit" value="Verzend" placeholder="Verzend">
+        </fieldset>
+    </form>
+    <br>
+    <footer>&#169; Lisette Vermeer</footer>
+
+</body>
+
+</html>
